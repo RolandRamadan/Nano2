@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC3C6D42BF5A5C200106E52 /* Nano2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEC3C6D32BF5A5C200106E52 /* Nano2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEC3C6D92BF5A5C200106E52 /* Nano2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */; };
+		BEC3C6DB2BF5A5C200106E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6DA2BF5A5C200106E52 /* ContentView.swift */; };
+		BEC3C6DD2BF5A5C300106E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3C6DC2BF5A5C300106E52 /* Assets.xcassets */; };
+		BEC3C6E02BF5A5C300106E52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3C6DF2BF5A5C300106E52 /* Preview Assets.xcassets */; };
+		BEC3C6EA2BF5A5C300106E52 /* Nano2_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6E92BF5A5C300106E52 /* Nano2_Watch_AppTests.swift */; };
+		BEC3C6F42BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6F32BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift */; };
+		BEC3C6F62BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6F52BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC3C6D52BF5A5C200106E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC3C6C72BF5A5C200106E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC3C6D22BF5A5C200106E52;
+			remoteInfo = "Nano2 Watch App";
+		};
+		BEC3C6E62BF5A5C300106E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC3C6C72BF5A5C200106E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC3C6D22BF5A5C200106E52;
+			remoteInfo = "Nano2 Watch App";
+		};
+		BEC3C6F02BF5A5C300106E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC3C6C72BF5A5C200106E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC3C6D22BF5A5C200106E52;
+			remoteInfo = "Nano2 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEC3C6FC2BF5A5C300106E52 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BEC3C6D42BF5A5C200106E52 /* Nano2 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEC3C6CD2BF5A5C200106E52 /* Nano2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3C6D32BF5A5C200106E52 /* Nano2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2App.swift; sourceTree = "<group>"; };
+		BEC3C6DA2BF5A5C200106E52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEC3C6DC2BF5A5C300106E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC3C6DF2BF5A5C300106E52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC3C6E52BF5A5C300106E52 /* Nano2 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nano2 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3C6E92BF5A5C300106E52 /* Nano2_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BEC3C6EF2BF5A5C300106E52 /* Nano2 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nano2 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3C6F32BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BEC3C6F52BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC3C6D02BF5A5C200106E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6E22BF5A5C300106E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6EC2BF5A5C300106E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC3C6C62BF5A5C200106E52 = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6D72BF5A5C200106E52 /* Nano2 Watch App */,
+				BEC3C6E82BF5A5C300106E52 /* Nano2 Watch AppTests */,
+				BEC3C6F22BF5A5C300106E52 /* Nano2 Watch AppUITests */,
+				BEC3C6CE2BF5A5C200106E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC3C6CE2BF5A5C200106E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6CD2BF5A5C200106E52 /* Nano2.app */,
+				BEC3C6D32BF5A5C200106E52 /* Nano2 Watch App.app */,
+				BEC3C6E52BF5A5C300106E52 /* Nano2 Watch AppTests.xctest */,
+				BEC3C6EF2BF5A5C300106E52 /* Nano2 Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC3C6D72BF5A5C200106E52 /* Nano2 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */,
+				BEC3C6DA2BF5A5C200106E52 /* ContentView.swift */,
+				BEC3C6DC2BF5A5C300106E52 /* Assets.xcassets */,
+				BEC3C6DE2BF5A5C300106E52 /* Preview Content */,
+			);
+			path = "Nano2 Watch App";
+			sourceTree = "<group>";
+		};
+		BEC3C6DE2BF5A5C300106E52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6DF2BF5A5C300106E52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEC3C6E82BF5A5C300106E52 /* Nano2 Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6E92BF5A5C300106E52 /* Nano2_Watch_AppTests.swift */,
+			);
+			path = "Nano2 Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BEC3C6F22BF5A5C300106E52 /* Nano2 Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6F32BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift */,
+				BEC3C6F52BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Nano2 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC3C6CC2BF5A5C200106E52 /* Nano2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3C6FD2BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2" */;
+			buildPhases = (
+				BEC3C6CB2BF5A5C200106E52 /* Resources */,
+				BEC3C6FC2BF5A5C300106E52 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC3C6D62BF5A5C200106E52 /* PBXTargetDependency */,
+			);
+			name = Nano2;
+			productName = Nano2;
+			productReference = BEC3C6CD2BF5A5C200106E52 /* Nano2.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BEC3C6D22BF5A5C200106E52 /* Nano2 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3C6F92BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2 Watch App" */;
+			buildPhases = (
+				BEC3C6CF2BF5A5C200106E52 /* Sources */,
+				BEC3C6D02BF5A5C200106E52 /* Frameworks */,
+				BEC3C6D12BF5A5C200106E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano2 Watch App";
+			productName = "Nano2 Watch App";
+			productReference = BEC3C6D32BF5A5C200106E52 /* Nano2 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC3C6E42BF5A5C300106E52 /* Nano2 Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3C7002BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2 Watch AppTests" */;
+			buildPhases = (
+				BEC3C6E12BF5A5C300106E52 /* Sources */,
+				BEC3C6E22BF5A5C300106E52 /* Frameworks */,
+				BEC3C6E32BF5A5C300106E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC3C6E72BF5A5C300106E52 /* PBXTargetDependency */,
+			);
+			name = "Nano2 Watch AppTests";
+			productName = "Nano2 Watch AppTests";
+			productReference = BEC3C6E52BF5A5C300106E52 /* Nano2 Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEC3C6EE2BF5A5C300106E52 /* Nano2 Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3C7032BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2 Watch AppUITests" */;
+			buildPhases = (
+				BEC3C6EB2BF5A5C300106E52 /* Sources */,
+				BEC3C6EC2BF5A5C300106E52 /* Frameworks */,
+				BEC3C6ED2BF5A5C300106E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC3C6F12BF5A5C300106E52 /* PBXTargetDependency */,
+			);
+			name = "Nano2 Watch AppUITests";
+			productName = "Nano2 Watch AppUITests";
+			productReference = BEC3C6EF2BF5A5C300106E52 /* Nano2 Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC3C6C72BF5A5C200106E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BEC3C6CC2BF5A5C200106E52 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BEC3C6D22BF5A5C200106E52 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BEC3C6E42BF5A5C300106E52 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BEC3C6D22BF5A5C200106E52;
+					};
+					BEC3C6EE2BF5A5C300106E52 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BEC3C6D22BF5A5C200106E52;
+					};
+				};
+			};
+			buildConfigurationList = BEC3C6CA2BF5A5C200106E52 /* Build configuration list for PBXProject "Nano2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC3C6C62BF5A5C200106E52;
+			productRefGroup = BEC3C6CE2BF5A5C200106E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC3C6CC2BF5A5C200106E52 /* Nano2 */,
+				BEC3C6D22BF5A5C200106E52 /* Nano2 Watch App */,
+				BEC3C6E42BF5A5C300106E52 /* Nano2 Watch AppTests */,
+				BEC3C6EE2BF5A5C300106E52 /* Nano2 Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC3C6CB2BF5A5C200106E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6D12BF5A5C200106E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3C6E02BF5A5C300106E52 /* Preview Assets.xcassets in Resources */,
+				BEC3C6DD2BF5A5C300106E52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6E32BF5A5C300106E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6ED2BF5A5C300106E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC3C6CF2BF5A5C200106E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3C6DB2BF5A5C200106E52 /* ContentView.swift in Sources */,
+				BEC3C6D92BF5A5C200106E52 /* Nano2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6E12BF5A5C300106E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3C6EA2BF5A5C300106E52 /* Nano2_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3C6EB2BF5A5C300106E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3C6F42BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift in Sources */,
+				BEC3C6F62BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC3C6D62BF5A5C200106E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC3C6D22BF5A5C200106E52 /* Nano2 Watch App */;
+			targetProxy = BEC3C6D52BF5A5C200106E52 /* PBXContainerItemProxy */;
+		};
+		BEC3C6E72BF5A5C300106E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC3C6D22BF5A5C200106E52 /* Nano2 Watch App */;
+			targetProxy = BEC3C6E62BF5A5C300106E52 /* PBXContainerItemProxy */;
+		};
+		BEC3C6F12BF5A5C300106E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC3C6D22BF5A5C200106E52 /* Nano2 Watch App */;
+			targetProxy = BEC3C6F02BF5A5C300106E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEC3C6F72BF5A5C300106E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC3C6F82BF5A5C300106E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BEC3C6FA2BF5A5C300106E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nano2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roland.Nano2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		BEC3C6FB2BF5A5C300106E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nano2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roland.Nano2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		BEC3C6FE2BF5A5C300106E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				INFOPLIST_KEY_CFBundleDisplayName = Nano2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roland.Nano2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BEC3C6FF2BF5A5C300106E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				INFOPLIST_KEY_CFBundleDisplayName = Nano2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roland.Nano2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC3C7012BF5A5C300106E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roland.Nano2-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nano2 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nano2 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		BEC3C7022BF5A5C300106E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roland.Nano2-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nano2 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nano2 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		BEC3C7042BF5A5C300106E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roland.Nano2-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Nano2 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		BEC3C7052BF5A5C300106E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6Z46Q6KJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roland.Nano2-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Nano2 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC3C6CA2BF5A5C200106E52 /* Build configuration list for PBXProject "Nano2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3C6F72BF5A5C300106E52 /* Debug */,
+				BEC3C6F82BF5A5C300106E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC3C6F92BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3C6FA2BF5A5C300106E52 /* Debug */,
+				BEC3C6FB2BF5A5C300106E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC3C6FD2BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3C6FE2BF5A5C300106E52 /* Debug */,
+				BEC3C6FF2BF5A5C300106E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC3C7002BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2 Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3C7012BF5A5C300106E52 /* Debug */,
+				BEC3C7022BF5A5C300106E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC3C7032BF5A5C300106E52 /* Build configuration list for PBXNativeTarget "Nano2 Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3C7042BF5A5C300106E52 /* Debug */,
+				BEC3C7052BF5A5C300106E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC3C6C72BF5A5C200106E52 /* Project object */;
+}
