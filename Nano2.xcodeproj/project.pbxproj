@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEBFF7F62BF727E400514671 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFF7F52BF727E400514671 /* Beverage.swift */; };
+		BEBFF7FA2BF72D3700514671 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFF7F92BF72D3700514671 /* DrinkDetailView.swift */; };
+		BEBFF7FC2BF73B1600514671 /* DrinkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFF7FB2BF73B1600514671 /* DrinkCardView.swift */; };
+		BEBFF7FE2BFAEE0A00514671 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFF7FD2BFAEE0A00514671 /* CategoryView.swift */; };
+		BEBFF8002BFAEE4900514671 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFF7FF2BFAEE4900514671 /* Category.swift */; };
+		BEBFF8022BFAEEEB00514671 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFF8012BFAEEEB00514671 /* CategoryCardView.swift */; };
 		BEC3C6D42BF5A5C200106E52 /* Nano2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEC3C6D32BF5A5C200106E52 /* Nano2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BEC3C6D92BF5A5C200106E52 /* Nano2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */; };
 		BEC3C6DB2BF5A5C200106E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6DA2BF5A5C200106E52 /* ContentView.swift */; };
@@ -15,6 +21,13 @@
 		BEC3C6EA2BF5A5C300106E52 /* Nano2_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6E92BF5A5C300106E52 /* Nano2_Watch_AppTests.swift */; };
 		BEC3C6F42BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6F32BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift */; };
 		BEC3C6F62BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C6F52BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift */; };
+		BEC3C7092BF5A75000106E52 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C7082BF5A75000106E52 /* HomePageView.swift */; };
+		BEC3C70B2BF5AE8B00106E52 /* AddDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3C70A2BF5AE8B00106E52 /* AddDrinkView.swift */; };
+		BEDF3D6E2C035798009C984B /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF3D6D2C035798009C984B /* TimeSelector.swift */; };
+		BEDF3D712C0380BC009C984B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF3D702C0380BC009C984B /* History.swift */; };
+		BEED9D302C03E30F00EAED1E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED9D2F2C03E30F00EAED1E /* HistoryView.swift */; };
+		BEED9D332C03F27300EAED1E /* HistoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED9D322C03F27300EAED1E /* HistoryCard.swift */; };
+		BEF519202C03C4390093FD29 /* CaffeineLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5191F2C03C4390093FD29 /* CaffeineLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +69,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BEBFF7F52BF727E400514671 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		BEBFF7F92BF72D3700514671 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		BEBFF7FB2BF73B1600514671 /* DrinkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCardView.swift; sourceTree = "<group>"; };
+		BEBFF7FD2BFAEE0A00514671 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		BEBFF7FF2BFAEE4900514671 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BEBFF8012BFAEEEB00514671 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
 		BEC3C6CD2BF5A5C200106E52 /* Nano2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC3C6D32BF5A5C200106E52 /* Nano2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2App.swift; sourceTree = "<group>"; };
@@ -67,6 +86,13 @@
 		BEC3C6EF2BF5A5C300106E52 /* Nano2 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nano2 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC3C6F32BF5A5C300106E52 /* Nano2_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		BEC3C6F52BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEC3C7082BF5A75000106E52 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		BEC3C70A2BF5AE8B00106E52 /* AddDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinkView.swift; sourceTree = "<group>"; };
+		BEDF3D6D2C035798009C984B /* TimeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelector.swift; sourceTree = "<group>"; };
+		BEDF3D702C0380BC009C984B /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		BEED9D2F2C03E30F00EAED1E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		BEED9D322C03F27300EAED1E /* HistoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCard.swift; sourceTree = "<group>"; };
+		BEF5191F2C03C4390093FD29 /* CaffeineLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +120,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4D21F32BFC594800263441 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C7082BF5A75000106E52 /* HomePageView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BE4D21F52BFC5A4700263441 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFF7FD2BFAEE0A00514671 /* CategoryView.swift */,
+				BEBFF8012BFAEEEB00514671 /* CategoryCardView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BE4D21F72BFC5A6D00263441 /* Drink */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C70A2BF5AE8B00106E52 /* AddDrinkView.swift */,
+				BEBFF7F92BF72D3700514671 /* DrinkDetailView.swift */,
+				BEBFF7FB2BF73B1600514671 /* DrinkCardView.swift */,
+			);
+			path = Drink;
+			sourceTree = "<group>";
+		};
+		BEBFF7F72BF727EF00514671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3C6DA2BF5A5C200106E52 /* ContentView.swift */,
+				BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */,
+				BE4D21F72BFC5A6D00263441 /* Drink */,
+				BE4D21F32BFC594800263441 /* Home */,
+				BE4D21F52BFC5A4700263441 /* Category */,
+				BEDF3D6F2C0357A4009C984B /* Time */,
+				BEED9D312C03E31200EAED1E /* History */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEBFF7F82BF727F600514671 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFF7F52BF727E400514671 /* Beverage.swift */,
+				BEBFF7FF2BFAEE4900514671 /* Category.swift */,
+				BEDF3D702C0380BC009C984B /* History.swift */,
+				BEF5191F2C03C4390093FD29 /* CaffeineLevel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BEC3C6C62BF5A5C200106E52 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +196,8 @@
 		BEC3C6D72BF5A5C200106E52 /* Nano2 Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				BEC3C6D82BF5A5C200106E52 /* Nano2App.swift */,
-				BEC3C6DA2BF5A5C200106E52 /* ContentView.swift */,
+				BEBFF7F72BF727EF00514671 /* View */,
+				BEBFF7F82BF727F600514671 /* Model */,
 				BEC3C6DC2BF5A5C300106E52 /* Assets.xcassets */,
 				BEC3C6DE2BF5A5C300106E52 /* Preview Content */,
 			);
@@ -149,6 +227,23 @@
 				BEC3C6F52BF5A5C300106E52 /* Nano2_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Nano2 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		BEDF3D6F2C0357A4009C984B /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF3D6D2C035798009C984B /* TimeSelector.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		BEED9D312C03E31200EAED1E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				BEED9D2F2C03E30F00EAED1E /* HistoryView.swift */,
+				BEED9D322C03F27300EAED1E /* HistoryCard.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +404,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBFF7F62BF727E400514671 /* Beverage.swift in Sources */,
 				BEC3C6DB2BF5A5C200106E52 /* ContentView.swift in Sources */,
+				BEBFF8022BFAEEEB00514671 /* CategoryCardView.swift in Sources */,
+				BEC3C70B2BF5AE8B00106E52 /* AddDrinkView.swift in Sources */,
+				BEF519202C03C4390093FD29 /* CaffeineLevel.swift in Sources */,
+				BEED9D332C03F27300EAED1E /* HistoryCard.swift in Sources */,
+				BEBFF7FC2BF73B1600514671 /* DrinkCardView.swift in Sources */,
+				BEC3C7092BF5A75000106E52 /* HomePageView.swift in Sources */,
+				BEED9D302C03E30F00EAED1E /* HistoryView.swift in Sources */,
+				BEDF3D712C0380BC009C984B /* History.swift in Sources */,
+				BEDF3D6E2C035798009C984B /* TimeSelector.swift in Sources */,
+				BEBFF8002BFAEE4900514671 /* Category.swift in Sources */,
+				BEBFF7FA2BF72D3700514671 /* DrinkDetailView.swift in Sources */,
+				BEBFF7FE2BFAEE0A00514671 /* CategoryView.swift in Sources */,
 				BEC3C6D92BF5A5C200106E52 /* Nano2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
