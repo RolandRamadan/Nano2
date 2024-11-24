@@ -29,11 +29,6 @@ struct CategoryView: View {
             }
         }
         .task {
-//            do{
-//                try context.delete(model: Category.self)
-//            } catch {
-//                print("failed")
-//            }
             if listOfCategories.isEmpty{
                 for category in categories{
                     context.insert(category)
@@ -42,8 +37,7 @@ struct CategoryView: View {
         }
         .navigationTitle{
             Text("Add Drink")
-                .offset(y: -10)
-                .foregroundStyle(.white)
+                .foregroundStyle(.orange)
         }
     }
 }

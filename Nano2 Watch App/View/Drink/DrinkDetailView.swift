@@ -113,6 +113,7 @@ struct DrinkDetailView: View {
             }
             
             caffeineAmount += self.caffeineAmount
+            
             context.delete(currentCaffeine[0])
             context.insert(CaffeineLevel(caffeineAmount: caffeineAmount, insertTime: date))
         } else {

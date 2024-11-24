@@ -54,7 +54,7 @@ struct HomePageView: View {
                         .frame(width: 40, height: 40)
                         .cornerRadius(100)
                     }
-                    .position(x:90, y:112)
+                    .position(x:90, y:130)
                 }
                 
                 Spacer()
@@ -62,7 +62,15 @@ struct HomePageView: View {
         }
         .task {
             if !caffeineLevel.isEmpty{
+//                let date = Date()
+//                let lastDate = caffeineLevel[0].insertTime
+//                print(lastDate)
+//                let components = Calendar.current.dateComponents([.hour], from: lastDate, to: date)
+//                caffeineAmount = caffeineLevel[0].caffeineAmount + (Int(components.hour!) * 50)
                 caffeineAmount = caffeineLevel[0].caffeineAmount
+                if caffeineAmount < 0{
+                    caffeineAmount = 0
+                }
             } else {
                 caffeineAmount = 0
             }
@@ -84,8 +92,8 @@ struct HomePageView: View {
 }
 
 #Preview {
-    NavigationStack {
+//    NavigationStack {
         HomePageView()
             .modelContainer(for: [Beverage.self, Category.self, History.self, CaffeineLevel.self], inMemory: true)
-    }
+//    }
 }

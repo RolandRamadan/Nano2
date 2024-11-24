@@ -5,6 +5,7 @@
 //  Created by Roland Ramadan on 16/05/24.
 //
 
+// TODO: HealthKit integration 
 import SwiftUI
 import SwiftData
 

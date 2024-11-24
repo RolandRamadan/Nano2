@@ -51,11 +51,6 @@ struct AddDrinkView: View {
             }
         }
         .task {
-//            do{
-//                try context.delete(model: Beverage.self)
-//            } catch {
-//                print("failed")
-//            }
             if listOfDrinks.isEmpty{
                 for drink in nescafeDrinks{
                     context.insert(drink)
